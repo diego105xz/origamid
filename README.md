@@ -1,2 +1,1 @@
-# origamid
-Respositório de cursos da origamid
+# Cursos Origamid
