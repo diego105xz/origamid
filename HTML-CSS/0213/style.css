@@ -1,0 +1,15 @@
+
+span, a, strong {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+a{
+    padding: 20px;
+    /* faz com que o ahref respeite a div de baixo */
+    display: inline-block;
+}
+
+
+div, h1, p {
+    border: 1px solid red;
+}

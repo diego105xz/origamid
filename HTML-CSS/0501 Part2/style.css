@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+}
+
+
+div{
+
+    /* px é usado para tamanho em pixel */
+    background-color: lightblue;
+    width: 50px;
+    height: 100px;
+}
+
+div{
+
+    /* porcentagem é usado para tamanho baseado ao elemento pai */
+    background-color: lightblue;
+    width: 50%;
+    height: 100%;
+}
+
+div{
+
+    /* vw e vh é usado para tamanho de tela */
+    background-color: lightblue;
+    width: 50vw;
+    height: 100vh;
+}
+
+div{
+    /* função calcula tamanho */
+    background-color: lightblue;
+    width: calc(100vw - 100px);
+    /* um terço da tela */
+    /* width: calc(100vw / 3); */
+    height: 100vh;
+}

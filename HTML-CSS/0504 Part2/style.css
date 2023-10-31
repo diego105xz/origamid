@@ -1,0 +1,43 @@
+.lista-1 li:first-child{
+    /* Primeiro filho */
+    background-color: #caf;
+}
+
+.lista-1 li:last-child{
+    /* Ultimo filho */
+    background-color: #cfa;
+}
+
+.lista-1 li:nth-child(2){
+    /* filho informado */
+    background-color: yellow;
+}
+
+.lista-2 li:nth-child(even){
+    /* Seleção de todos os elementos pares */
+    background-color: aqua;
+
+}
+    
+.lista-3 li:nth-child(odd){
+    /* Seleção de todos os elementos impar */
+    background-color: rgb(118, 72, 204);
+
+}
+
+.lista-4 li:nth-child(3n){
+    /* Selecione todo terceiro elemento */
+    background-color: red;
+}
+
+
+.lista-5 li:not(:first-child, :last-child, .teceiro){
+        /* aplique estilo em todos menos os devidos not(..) */
+    background-color: chartreuse;
+}
+
+h2:not(.contato){
+    /* aplique estilos em todos menos h2 com class .contatos */
+    color: green;
+    font-size: 36px;
+}

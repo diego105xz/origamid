@@ -1,0 +1,22 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.cover img {
+    height: 100%;
+    /*  imagen é reduzida mantendo o tamanho do texto ao lado */
+    object-fit: cover;
+    /* define de onde e para onde a imagem começará a cortar */
+    object-position: top right;
+}
+
+p{
+    font-size: 1.5rem;
+}

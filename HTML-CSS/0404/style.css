@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px 20px;
+    /* display:block resolve o problema da tag "a" não respeitar espaço */
+    display: block;
+    color: #000;
+}

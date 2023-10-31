@@ -1,0 +1,52 @@
+body{
+    font-size: 2rem;
+}
+
+/* Grau de importância de cada seletor */
+
+#produtos{
+    color: lightgreen;
+}
+
+#intro #servicos{
+    color: aqua;
+}
+
+#servicos{
+    color: red;
+}
+
+.titulo.teste{
+    color: blue;
+}
+
+.titulo{
+    color: tomato;
+    padding: 10px;
+}
+
+.titulo.teste{
+    color: blue;
+}
+
+
+
+html body section h2{
+    border-left:  8px solid lightgreen;
+}
+
+body section h2{
+    border-left: 8px solid lightsalmon;
+}
+
+h2{
+    color: black !important;
+}
+
+
+/* ordem de maioridade
+1º !important
+2º id
+3º class
+4º tag
+*/

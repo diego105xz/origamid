@@ -1,0 +1,21 @@
+/* :root é o elemneto mais forte no html*/
+
+:root{
+    --cor-primaria:#84e;
+    --borda: 4px solid blue;
+    --fonte-grande:3rem;
+}
+
+h1{
+    color: var(--cor-primaria);
+    font-size: var(--fonte-grande);
+}
+
+
+p{
+/* sobre pois o valor da cor */
+    --cor-primaria: #222;
+    color: var(--cor-primaria);
+    border: var(--borda);
+    font-size: calc(var(--fonte-grande) / 2);
+}

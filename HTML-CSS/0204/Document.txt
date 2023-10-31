@@ -1,0 +1,5 @@
+Para alterar a config do Vscode:
+
+1) Ctrl + Shift + P
+2) escreva "open user settings json"
+3) edite o json.

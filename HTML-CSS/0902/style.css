@@ -1,0 +1,53 @@
+[required]{
+    border: 2px solid tomato;
+}
+
+[href="#contato"]{
+    border: 2px solid greenyellow;
+}
+
+a[href="https://www.origamid.com"]{
+    background-color: yellow;
+}
+
+/* inicia com cerquilha"#" ou seja links internos*/
+[href^="#"]{
+    background-color:rgb(193, 247, 247);
+}
+
+
+/* termina com .com ou seja links externos */
+/* [href$=".com"]{
+    background-color: green;
+} */
+
+
+/* Selecionar seletor direto filho de section */
+section > h2{
+    color: tomato;
+}
+
+p{
+    margin: 0;
+}
+
+article{
+    background: lightgreen;
+    padding: 10px;
+}
+
+/* só selecionará o paragrafo que tiver um paragrafo antes */
+p + p{
+    margin-top: 20px;
+}
+
+/* retirar ultima margin o elemento
+article p:last-child{
+    margin-bottom: 0px;
+} */
+
+
+/* seleciona tudo na página */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

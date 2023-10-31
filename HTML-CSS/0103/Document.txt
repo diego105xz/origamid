@@ -1,0 +1,36 @@
+Extensões VsCode
+
+Name: Origamid Theme
+Id: origamid.origamid-theme
+Description: Official Origamid Theme
+Version: 1.1.7
+Publisher: Origamid
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=origamid.origamid-theme
+
+Name: Portuguese (Brazil) Language Pack for Visual Studio Code
+Id: MS-CEINTL.vscode-language-pack-pt-BR
+Description: Language pack extension for Portuguese (Brazil)
+Version: 1.79.2023061409
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-pt-BR
+
+Name: Live Server
+Id: ritwickdey.LiveServer
+Description: Launch a development local Server with live reload feature for static & dynamic pages
+Version: 5.7.9
+Publisher: Ritwick Dey
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+Name: Prettier - Code formatter
+Id: esbenp.prettier-vscode
+Description: Code formatter using prettier
+Version: 9.19.0
+Publisher: Prettier
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+Name: vscode-icons
+Id: vscode-icons-team.vscode-icons
+Description: Icons for Visual Studio Code
+Version: 12.4.0
+Publisher: VSCode Icons Team
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons

@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    font-family: arial;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+}
+
+div{
+    background: #111;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+}
+
+p{
+    color: #b2b2b2;   
+    margin: 10px 0px; 
+}diego99xz
+
+
+span{
+    color:#febe01;
+}
+
+a{
+    background: #febe01;
+    color: #332200;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+}

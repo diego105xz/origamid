@@ -1,0 +1,24 @@
+body{
+    margin: 20px;
+}
+
+
+/* reset margin e padding */
+ul{
+    padding: 0px;
+    margin: 0px;
+    /* list-style:none; */
+    list-style: square inside; /*inside indenta a lista para dentro do elemneto pai*/
+}
+
+ol{
+    padding: 0px;
+    margin: 0px;
+    list-style:none; /*remove a numeração da lista*/
+}
+
+
+/* restou margins dl e dd */
+dl, dd{
+    margin: 0px;
+}

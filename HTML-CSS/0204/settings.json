@@ -1,0 +1,18 @@
+{
+    //Thema e cores do vscode
+    "workbench.colorTheme": "Origamid",
+    //icones do vscode
+    "workbench.iconTheme": "vscode-icons",
+    //Salvar arquivos auto
+    "files.autoSave": "afterDelay",
+    //live Server
+    "liveServer.settings.donotShowInfoMsg": true,
+    //Pop up de deletar arquivo
+    "explorer.confirmDelete": false,
+    //Pular linhar auto
+    "editor.wordWrap": "on",
+    //Não aparecer pop up de segurança quando tentar abrir novo arquivo
+    "security.workspace.trust.untrustedFiles": "open",
+    //desativa sub icones de endereço "quadrado"
+    "outline.icons": false
+}

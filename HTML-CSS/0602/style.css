@@ -1,0 +1,45 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+h1{
+    grid-column: 1 / -1;
+}
+
+/* abaixo de 600px */
+@media (max-width:600px){
+    div{
+        grid-template-columns: 1fr;
+    }
+
+    h1{
+        background-color: lightpink;
+    }
+
+    img{
+        display: none;
+    }
+}
+
+/* a cima de 1000px */
+/* a baixo de 500px  */
+@media (min-width:1000px), (max-width: 500px){
+    html{
+        font-size: 150%;
+    }
+}
+
+/* acima de 700px e abaixo de 900px */
+
+@media (min-width:700px) and (max-width: 900px){
+    p{
+        background-color: lightskyblue;
+    }
+}

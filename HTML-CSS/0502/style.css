@@ -1,0 +1,13 @@
+p{
+    font-size: 2rem;
+    font-family: Georgia, Times, serif;
+    font-weight: bold; /*Peso da fonte*/
+    font-style: italic;
+    line-height: 1.3; /*Altura da linha*/
+    text-decoration: none; /*Estilizar link*/
+    text-transform: capitalize;/*Todas primeiras letras maiusculas, todas maiusculas ou minusculas*/
+    text-indent: 5rem;/*colocar espaçamento de paragrafo*/
+    text-align: left;/*alinhamento de texto*/
+    text-shadow: 5px 5px 10px gray;/*Sombra no texto, recomendado usar somente caso o texto vá ficar em cima de uma imagem.*/
+    letter-spacing: 0.05rem;/*espaçamento entre as letras*/
+}    

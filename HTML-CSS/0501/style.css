@@ -1,0 +1,35 @@
+/* Inicio Estilo gerais */
+a{
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+p{
+    background-color: lightblue;
+}
+
+/* fim Estilo gerais */
+
+.px{
+    font-size: 24px;
+    padding: 16px 32px;
+}
+
+/* rem é uma unidade relação no html da página,
+por padrão a página tem 
+16px = 1rem
+24px = 1.5rem
+32px = 2rem
+*/
+
+.rem{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+/* Se alterar a unidade relação do html todo rem sera alterado o tamanho visual*/
+
+
+/* html{    agora 32px é a unidade relação html 32px= 1rem    font-size: 32px;} */

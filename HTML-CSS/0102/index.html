@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundando cor do Titulo</title>
+    <style>
+        /* Estilização */
+        h1{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tiítulo -->
+    <h1 id="texto">Olá Mundo.</h1>
+
+    <script>
+        //Função mudar de cor
+        function mudar(){
+            texto.style.color = "red";
+        }
+        //Chmando função mudar de cor quando clicar
+        texto.addEventListener("click", mudar);
+    </script>
+</body>
+</html>

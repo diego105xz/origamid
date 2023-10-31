@@ -1,0 +1,33 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 900px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    margin: 0 auto;
+}
+
+.cover img {
+    height: 100%;
+    /*  imagen é reduzida mantendo o tamanho do texto ao lado */
+    object-fit: cover;
+    /* define de onde e para onde a imagem começará a cortar */
+    object-position: top right;
+}
+
+
+/*  texto alinha ao centro do cover */
+.texto{
+    align-self: center;
+}
+
+p{
+    font-size: 1.5rem;
+    max-width: 60ch;
+}
