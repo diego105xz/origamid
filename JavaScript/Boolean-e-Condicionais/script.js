@@ -45,3 +45,35 @@ console.log(10 >= 11);//false
 var x = 10
 
 console.log(x == 10);//true
+
+true && true; //true
+true && false; //false
+false && true; //false
+'Gato' && 'Cão'; // 'Cão'
+(5 - 5) && (5 + 5); // 0
+'Gato' && false; // false
+(5 >= 5) && (3 < 6); //true
+
+
+true || true ; // true
+true || false; // true
+false || true; // true
+'Gato' || 'Cão'; //'Gato'
+(5 - 5) || (5 + 5); // 10
+'Gato' || false; //'Gato'
+(5 >= 5) || (3 < 6); // true
+
+
+var cor = 'Azul';
+
+switch(cor){
+    case 'Azul':
+        console.log('Olhe para o céu');
+        break;
+    case 'Vermelho':
+        console.log('Olhe para o fogo');
+        break;
+    default:
+        console.log('feche os olhos');
+        break;
+}
