@@ -1,0 +1,19 @@
+AMBIENTE
+Instalar o Node.js
+
+https://nodejs.org/en/
+
+Instalar o Git
+
+https://git-scm.com/downloads
+
+Instalar o Visual Studio Code
+
+https://code.visualstudio.com/
+
+VISUAL STUDIO CODE (EXTENSÕES)
+Origamid Next
+Live Server
+Prettier - Code Formatter
+vscode-icons
+Portuguese (Brazil)
