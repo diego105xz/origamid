@@ -20,3 +20,24 @@ if (href === 'http://127.0.0.1:5500/origamid/JavaScript/0301-O_que_e_o_Dom/'){
 
 const tituloH1 = document.querySelector('h1');
 
+const h1class = tituloH1.classList;
+
+//--------------------------------------------
+
+//NODE
+//Toda tag html é representada pelo objeto Element e por isso herda os seus métodos e propriedades. Element é um tipo de objeto Node.
+
+const titulo = document.querySelector('h1');
+
+titulo.innerText; // retorna o texto;
+titulo.classList; // retorna as classes;
+titulo.id; // retorna o id;
+titulo.offsetHeight; // retorna a altura do elemento;
+
+function callbackH1(){
+    console.log('Clicou em', titulo.innerText);
+}
+
+
+titulo.addEventListener('click', callbackH1);
+// ativa a função callback ao click no titulo
