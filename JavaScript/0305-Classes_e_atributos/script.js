@@ -18,3 +18,36 @@ const animais = document.querySelector('.animais');
 
 animais.attributes; // retorna todos os atributos
 animais.attributes[0]; // retorna o primeiro atributo
+
+//-------------------------------------------------
+//GETATTRIBUTE E SETATTRIBUTE
+//Métodos que retornam ou definem de acordo com o atributo selecionado
+
+const img = document.querySelector('img');
+
+img.getAttribute('src'); // valor do src
+img.setAttribute('alt', 'Texto Alternativo'); // muda o alt
+img.hasAttribute('id'); // true / false
+img.removeAttribute('alt'); // remove o alt
+
+img.hasAttributes(); // true / false se tem algum atributo
+
+//É muito comum métodos de get e set;
+
+//-------------------------------------------------
+//READ ONLY VS WRITABLE
+//Existem propriedades que não permitem a mudança de seus valores, essas são considerados Read Only, ou seja, apenas leitura.
+
+const animal = document.querySelector('.animais');
+
+animal.className; // string com o nome das classes
+animal.className = 'azul'; // substitui completamente a string
+animal.className += ' vermelho'; // adiciona vermelho à string
+
+animal.attributes = 'class="ativo"'; // não funciona, read-only
+
+//Lembre-se que podemos modificar o valor de uma propriedade objeto.propriedade = ''
+
+//Metodos e função estão em amarelo
+//propriedade está em cinza
+//objeto e variavel está em branco
