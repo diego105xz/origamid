@@ -38,6 +38,5 @@ function callbackH1(){
     console.log('Clicou em', titulo.innerText);
 }
 
-
 titulo.addEventListener('click', callbackH1);
 // ativa a função callback ao click no titulo
